@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%= csrf_meta_tags %>
+  <!-- other head elements -->
+</head>
+<body>
+<div class="card">
+<h1 class="text-center">Rails Tic Tac Toe</h1>
+
+<div id="board">
+  <%= render 'board' %>
+</div>
+
+
+  <div class="bottom-section">
+    <div>
+      <label for="player1">Player 1:</label>
+      <input type="text" id="player1" value="Player 1">
+    </div>
+  <button class="button" id="new-game-button">New Game</button>
+    <div>
+      <label for="player2">Player 2:</label>
+      <input type="text" id="player2" value="Player 2">
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
+
